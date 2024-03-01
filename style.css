@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body{
+    background-color: #FFF0F5;
+}
+h1{
+    background-color:hotpink;
+    color:deeppink;
+    font-family:"Nico Moji";
+}
+
+section{
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin: 40px auto 0;
+    border: 1px dashed #ccc;
+    text-align: center;
+}
+/*dlタグ内の設定*/
+.flex-container{
+    display: flex;      /*横並びになる*/
+    justify-content: space-around;
+}
+.flex-item{
+    background-color:hotpink;
+    padding: 1em;
+    flex-basis: 30%;
+}
+.flex-item dt{
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
